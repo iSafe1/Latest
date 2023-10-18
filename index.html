@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iSafe Questzania</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('iSafeBG3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100% 100%;
+            height: auto;
+            margin: auto;
+        }
+
+        body 
+        
+        
+        {
+            
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 50%;
+            text-align: left;
+            position :-webkit-sticky;
+        }
+        .navbar {
+            position: absolute;
+            top: 3%;
+            right: 0%;
+            display: flex;
+            justify-content: flex-end;
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+        .navbar li {
+            margin: 0 35px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .navbar li:hover {
+            transform: scale(1.1);
+        }
+        h1 {
+            font-size: 70px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: normal;
+            margin-top: 10px;
+            line-height: 1.2;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+        .login-btn {
+            background-color: #6300f8;
+            color: #fff;
+        }
+        .login-btn:hover {
+            background-color: #024256;
+        }
+        .game-pin-btn {
+            background-color: #b802e6;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .game-pin-btn:hover {
+            background-color: #07a8ff;
+        }
+        .about-link {
+            display: block;
+            margin-top: 20px;
+            text-decoration:navajowhite;
+            color: #3f0076;
+            cursor: pointer;
+        }
+        .about-link:hover {
+            text-decoration: underline;
+        }
+        .animations {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50%;
+            height: 100%;
+            background: url('path_to_your_animation.gif') no-repeat center center;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <ul class="navbar">
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="quizcategory.html">Attend Quiz</a></li>
+            <li>Create Quiz</li>
+            <li>Cyber Hub</li>
+        </ul>
+        <div class="animations"></div>
+        <h1>Empower Kids to<br>Safeguard the<br>Digital World</h1>
+        <h2>Join our interactive quiz and learn about<br>cybersecurity in a fun and engaging way</h2>
+        <button class="login-btn" onclick="window.location.href='login.html'">Login</button>
+        <button class="game-pin-btn"onclick="window.location.href='quizpin.html'">Quiz Pin</button>
+        <a href="aboutUs.html" class="about-link">About Us</a>
+    </div>
+</body>
+</html>
+

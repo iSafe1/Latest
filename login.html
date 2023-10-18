@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.login.css">
+    <link rel="stylesheet" href="loader.style.css">
+    <style>
+        body  {
+            
+        
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i");
+        body {
+        font-family: "Ubuntu", sans-serif;
+        color: #6e6e6e;
+        font-size: 1.6rem;
+        background-color: #161616;
+        }      
+
+    </style>
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="rocket-loader">
+            <div class="rocket">
+                <div class="rocket-extras"></div>
+                <div class="jet"><span></span></div>
+            </div>
+        </div>
+
+    <div class="login_form_container" style="width: 60%;">
+        <div class="login_form">
+            <h2>Welcome Back to iSafe</h2>
+            <div class="role-button">
+                <label for="role">Select your role: </label>
+                <select id="role">
+                    <option value="teacher">Teachers</option>
+                    <option value="parent">Parents</option>
+                    <option value="student">Kids</option>
+                </select>
+            </div>
+            <div class="input_group">
+                <i class="fa fa-user"></i>
+                <input
+                    type="text"
+                    placeholder="Username"
+                    class="input_text"
+                    autocomplete="off"
+                />
+            </div>
+            <div class="input_group">
+                <i class="fa fa-unlock-alt"></i>
+                <input
+                    type="password"
+                    placeholder="Password"
+                    class="input_text"
+                    autocomplete="off"
+                />
+            </div>
+            <div class="button_group" id="login_button">
+                <a>Submit</a>
+            </div>
+            <div class="fotter">
+              <a href="forgotpass.html">Forgot Password ?</a>
+              <a href="signup.html">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.login.js"></script>
+</body>
+</html>
+
+

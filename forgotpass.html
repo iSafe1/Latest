@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.frgt.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .login_form_container {
+            width: 60%;
+        }
+
+        .login_form h2 {
+            margin-bottom: 20px;
+        }
+
+        .input_group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .input_group i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+            cursor: pointer;
+        }
+
+        .input_text {
+            padding-left: 40px; /* Adjusted padding to accommodate the icon */
+            width: calc(100% - 40px); /* Adjusted width to accommodate the icon */
+        }
+
+        .input_group i:hover {
+            color: #0056b3; /* Hover effect for email icon */
+        }
+
+        .button_group a {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 14px;
+        }
+
+        .button_group a:hover {
+            background-color: #0056b3;
+            transform: scale(1.05); /* Add scale effect on hover */
+        }
+
+        .button_group a:focus {
+            outline: none;
+        }
+
+        .footer {
+            margin-top: 20px;
+        }
+
+        .footer a {
+            margin-right: 20px;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .footer a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="login_form_container">
+        <div class="login_form">
+            <h2>Forgot Password</h2>
+            <div class="input_group">
+                <i class="fa fa-envelope"></i>
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="input_text"
+                    autocomplete="off"
+                />
+            </div>
+            <div class="button_group" id="send_button">
+                <a href="#">Send</a>
+            </div>
+            <div class="footer">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.frgt.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
